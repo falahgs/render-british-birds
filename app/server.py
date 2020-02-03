@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1IJayRXA_sNd4-3zpt5liWe7fP2XJ32F-'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1IJayRXA_sNd4-3zpt5liWe7fP2XJ32F-?alt=media&key=AIzaSyC2DRnJgqQfzs9dQKd8bmAVeC8fAG1jnOo'
 export_file_name = 'stage-2.pkl'
 
 classes = ['blackbird','blue_tit','carron_crow','chaffinch','coal_tit','collared_dove','dunnock','goldcrest','goldfinch',
