@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1DwO4-OPjBZ3RHR4lezkJcLVfbC5eJgNS?alt=media&key=AIzaSyC2DRnJgqQfzs9dQKd8bmAVeC8fAG1jnOo'
-export_file_name = 'birdclassifier.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1yicF_0yJSRlko1tgRzvBrPYHRuCgb7Mi?alt=media&key=AIzaSyC2DRnJgqQfzs9dQKd8bmAVeC8fAG1jnOo'
+export_file_name = 'birdclassifier_new3.pkl'
 
 classes = ['blackbird','blue_tit','carron_crow','chaffinch','coal_tit','collared_dove','dunnock','goldcrest','goldfinch',
  'great_tit','greenfinch','house_sparrow','jay','long_tit','magpie','robin','starling','wood_pigeon','wren']
